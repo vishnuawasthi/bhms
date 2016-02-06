@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>bhms appointment</title>
+<meta name="description" content="app, web app, responsive, admin dashboard, admin, flat, flat ui, ui kit, off screen nav" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+<link rel="stylesheet" href="css/animate.css" type="text/css" />
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+<link rel="stylesheet" href="css/plugin.css" type="text/css" />
+<link rel="stylesheet" href="css/app.css" type="text/css" />
+<!--[if lt IE 9]>
+    <script src="js/ie/respond.min.js" cache="false"></script>
+    <script src="js/ie/html5.js" cache="false"></script>
+    <script src="js/ie/fix.js" cache="false"></script>
+  <![endif]-->
+</head>
+<body>
+<section class="hbox stretch"> 
+  <!-- .aside -->
+  <aside class="bg-dark aside-sm" id="nav">
+    <section class="vbox">
+      <header class="dker nav-bar nav-bar-fixed-top"> <a class="btn btn-link visible-xs" data-toggle="class:nav-off-screen" data-target="#nav"> <i class="fa fa-bars"></i> </a> <a href="#" class="nav-brand" data-toggle="fullscreen">bhms</a> <a class="btn btn-link visible-xs" data-toggle="class:show" data-target=".nav-user"> <i class="fa fa-comment-o"></i> </a> </header>
+      <section> 
+        <!-- user -->
+        <div class="bg-dark nav-user hidden-xs pos-rlt">
+          <div class="nav-avatar pos-rlt"> <a href="#" class="thumb-sm avatar animated rollIn" data-toggle="dropdown"> <img src="images/avatar.jpg" alt="" class=""> <span class="caret caret-white"></span> </a>
+            <ul class="dropdown-menu m-t-sm animated fadeInLeft">
+              <span class="arrow top"></span>
+              <li> <a href="#">Settings</a> </li>
+              <li> <a href="profile.html">Profile</a> </li>
+              <li> <a href="#"> <span class="badge bg-danger pull-right">3</span> Notifications </a> </li>
+              <li class="divider"></li>
+              <li> <a href="docs.html">Help</a> </li>
+              <li> <a href="signin.html">Logout</a> </li>
+            </ul>
+            <div class="visible-xs m-t m-b"> <a href="#" class="h3">John.Smith</a>
+              <p><i class="fa fa-map-marker"></i> London, UK</p>
+            </div>
+          </div>
+          <div class="nav-msg"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <b class="badge badge-white count-n">2</b> </a>
+            <section class="dropdown-menu m-l-sm pull-left animated fadeInRight">
+              <div class="arrow left"></div>
+              <section class="panel bg-white">
+                <header class="panel-heading"> <strong>You have <span class="count-n">2</span> notifications</strong> </header>
+                <div class="list-group"> <a href="#" class="media list-group-item"> <span class="pull-left thumb-sm"> <img src="images/avatar.jpg" alt="John said" class="img-circle"> </span> <span class="media-body block m-b-none"> Use awesome animate.css<br>
+                  <small class="text-muted">28 Aug 13</small> </span> </a> <a href="#" class="media list-group-item"> <span class="media-body block m-b-none"> 1.0 initial released<br>
+                  <small class="text-muted">27 Aug 13</small> </span> </a> </div>
+                <footer class="panel-footer text-sm"> <a href="#" class="pull-right"><i class="fa fa-cog"></i></a> <a href="#">See all the notifications</a> </footer>
+              </section>
+            </section>
+          </div>
+        </div>
+        <!-- / user --> 
+        <!-- nav -->
+        <nav class="nav-primary hidden-xs">
+          <ul class="nav">
+            <li class="active"> <a href="#"><span>Register New Patient</span> </a> </li>
+            <li> <a href="#"><span>View All Patient</span> </a> </li>
+            <li class="dropdown-submenu"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <b class="badge bg-dark pull-right"><i class="fa fa-arrow-circle-right"></i></b> <span>Doctors</span> </a>
+              <ul class="dropdown-menu">
+                <li> <a href="#">Sub links 1</a> </li>
+                <li> <a href="#">Sub links 2</a> </li>
+                <li> <a href="#">Sub links 3</a> </li>
+                <li> <a href="#">Sub links 4</a> </li>
+                <li> <a href="#">Sub links 5</a> </li>
+              </ul>
+            </li>
+            <li> <a href="#"><span>View Appointments</span> </a> </li>
+            <li> <a href="#"><span>Payments</span> </a> </li>
+            <li> <a href="#"><span>Advance Search</span> </a> </li>
+          </ul>
+        </nav>
+        <!-- / nav --> 
+        
+      </section>
+      <footer class="footer bg-gradient hidden-xs"> <a href="#" class="btn btn-sm btn-link m-r-n-xs pull-right"> <i class="fa fa-power-off"></i> </a> <a href="#nav" data-toggle="class:nav-vertical" class="btn btn-sm btn-link m-l-n-sm"> <i class="fa fa-bars"></i> </a> </footer>
+    </section>
+  </aside>
+  <!-- /.aside --> 
+  <!-- .vbox -->
+  <section id="content">
+    <section class="vbox">
+      <header class="header bg-white b-b">
+        <p>Appointment Screen</p>
+      </header>
+      <section class="scrollable wrapper">
+        <div class="row">
+          <div class="col-sm-12 appointment">
+            <div class="m-b-sm">
+              <div class="btn-group"> <a class="btn btn-primary" href="#">New Appointment</a> <a class="btn btn-default" href="#">Date View</a> <a class="btn btn-default" href="#">Calender View</a> </div>
+            </div>
+            <div class="col-sm-8 pl0">
+              <h1 class="text-primary">Appointment Screen</h1>
+              <h2><strong>Today:</strong> Monday 19 January 10:00 <i class="fa fa-calendar"></i></h2>
+              <div class="col-sm-12 p0">
+                <div class="uts">
+                  <ul>
+                    <li class="primary-bg"><a href="#">
+                      <label>Schedule</label>
+                      <span class="text-primary">08</span></a></li>
+                    <li class="warning-bg"><a href="#">
+                      <label>Waiting</label>
+                      <span class="text-warning">08</span></a></li>
+                    <li class="danger-bg"><a href="#">
+                      <label>Engaged</label>
+                      <span class="text-danger">08</span></a></li>
+                    <li class="success-bg"><a href="#">
+                      <label>Check Out</label>
+                      <span class="text-success">08</span></a></li>
+                  </ul>
+                </div>
+              </div>
+              <h3>Doctor (2)</h3>
+              <div class="row ">
+                <div class="scroll-dr">
+                  <div class="col-sm-4 mb20">
+                    <div class="dr-tbas purple-bg"> <img src="images/default.png" width="32" height="32">
+                      <p><strong>MR ID:</strong> <a href="#">005487AD</a></p>
+                      <p>MD</p>
+                      <p>Retina Specilist</p>
+                      <p><strong>Available time:</strong> 10:00 AM to 11.30 PMs </p>
+                      <div class="purple"></div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4 mb20">
+                    <div class="dr-tbas green-bg"> <img src="images/default.png" width="32" height="32">
+                      <p><strong>MR ID:</strong> <a href="#">005487AD</a></p>
+                      <p>MD</p>
+                      <p>Retina Specilist</p>
+                      <p><strong>Available time:</strong> 10:00 AM to 11.30 PMs </p>
+                      <div class="green"></div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4 mb20">
+                    <div class="dr-tbas orange-bg"> <img src="images/default.png" width="32" height="32">
+                      <p><strong>MR ID:</strong> <a href="#">005487AD</a></p>
+                      <p>MD</p>
+                      <p>Retina Specilist</p>
+                      <p><strong>Available time:</strong> 10:00 AM to 11.30 PMs </p>
+                      <div class="orange"></div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4 mb20">
+                    <div class="dr-tbas gray-bg"> <img src="images/default.png" width="32" height="32">
+                      <p><strong>MR ID:</strong> <a href="#">005487AD</a></p>
+                      <p>MD</p>
+                      <p>Retina Specilist</p>
+                      <p><strong>Available time:</strong> 10:00 AM to 11.30 PMs </p>
+                      <div class="gray"></div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4 mb20">
+                    <div class="dr-tbas red-bg"> <img src="images/default.png" width="32" height="32">
+                      <p><strong>MR ID:</strong> <a href="#">005487AD</a></p>
+                      <p>MD</p>
+                      <p>Retina Specilist</p>
+                      <p><strong>Available time:</strong> 10:00 AM to 11.30 PMs </p>
+                      <div class="red"></div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4 mb20">
+                    <div class="dr-tbas blue-bg"> <img src="images/default.png" width="32" height="32">
+                      <p><strong>MR ID:</strong> <a href="#">005487AD</a></p>
+                      <p>MD</p>
+                      <p>Retina Specilist</p>
+                      <p><strong>Available time:</strong> 10:00 AM to 11.30 PMs </p>
+                      <div class="blue"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 lft-brd pr0">
+              <h1 class="text-primary">Dr. Subbulu Appointment (3)</h1>
+              <h2>Mon 19 Jan 2016  10:00 <i class="fa fa-calendar"></i></h2>
+              <div class="col-sm-12 p0 mt15">
+                <label class=" col-sm-3 text-left pl0 mt5">MR ID</label>
+                <div class="input-group col-sm-8">
+                  <input class="form-control input-sm" type="text" placeholder="SVVV00006s">
+                  <span class="input-group-btn">
+                  <button class="btn btn-white btn-sm" type="button"><i class=" fa fa-search"></i></button>
+                  </span> </div>
+              </div>
+              <div class="col-sm-12 p0 mt15">
+                <div class="col-sm-6 p0">
+                  <div class="td-bord"> <img src="images/default.png" width="32" height="32">
+                    <p>MR ID: <a href="#">005487AD</a></p>
+                    <p>Name: Balaji</p>
+                    <p><a href="#">&nbsp;</a> <i class="fa fa-arrow-circle-down"></i></p>
+                  </div>
+                </div>
+                <div class="col-sm-6 lsd">
+                  <label>
+                    <input type="checkbox">
+                    Express Cunsultation</label>
+                    <button type="button" class="btn btn-primary btn-sm">Add</button>
+                </div>
+                
+              </div>
+              <div class="col-sm-12 p0 scroll-rht">
+                <section class="panel mt15">
+                  <table class="table table-striped m-b-none text-sm">
+                    <thead>
+                      <tr>
+                        <th width="15%">S No.</th>
+                        <th width="20%">time</th>
+                        <th width="50%">MR ID / Name</th>
+                        <th width="15%"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>01</td>
+                        <td>10:35</td>
+                        <td><div class="td-bord"> <img src="images/default.png" width="32" height="32">
+                            <p>MR ID: <a href="#">005487AD</a></p>
+                            <p>Name: Balaji</p>
+                            <p><a href="#">&nbsp;</a> <i class="fa fa-arrow-circle-down"></i></p>
+                          </div></td>
+                        <td><a href="#" class="btn btn-danger btn-xs">Cancel</a></td>
+                      </tr>
+                      <tr>
+                        <td>02</td>
+                        <td>10:35</td>
+                        <td><div class="td-bord"> <img src="images/default.png" width="32" height="32">
+                            <p>MR ID: <a href="#">005487AD</a></p>
+                            <p>Name: Balaji</p>
+                            <p><a href="#">&nbsp;</a> <i class="fa fa-arrow-circle-down"></i></p>
+                          </div></td>
+                        <td><a href="#" class="btn btn-danger btn-xs">Cancel</a></td>
+                      </tr>
+                      <tr>
+                        <td>03</td>
+                        <td>10:35</td>
+                        <td><div class="td-bord"> <img src="images/default.png" width="32" height="32">
+                            <p>MR ID: <a href="#">005487AD</a></p>
+                            <p>Name: Balaji</p>
+                            <p><a href="#">&nbsp;</a> <i class="fa fa-arrow-circle-down"></i></p>
+                          </div></td>
+                        <td><a href="#" class="btn btn-danger btn-xs">Cancel</a></td>
+                      </tr>
+                      <tr>
+                        <td>04</td>
+                        <td>10:35</td>
+                        <td><div class="td-bord"> <img src="images/default.png" width="32" height="32">
+                            <p>MR ID: <a href="#">005487AD</a></p>
+                            <p>Name: Balaji</p>
+                            <p><a href="#">&nbsp;</a> <i class="fa fa-arrow-circle-down"></i></p>
+                          </div></td>
+                        <td><a href="#" class="btn btn-danger btn-xs">Cancel</a></td>
+                      </tr>
+                      <tr>
+                        <td>05</td>
+                        <td>10:35</td>
+                        <td><div class="td-bord"> <img src="images/default.png" width="32" height="32">
+                            <p>MR ID: <a href="#">005487AD</a></p>
+                            <p>Name: Balaji</p>
+                            <p><a href="#">&nbsp;</a> <i class="fa fa-arrow-circle-down"></i></p>
+                          </div></td>
+                        <td><a href="#" class="btn btn-danger btn-xs">Cancel</a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <a href="#" class="hide nav-off-screen-block" data-toggle="class:nav-off-screen" data-target="#nav"></a> </section>
+  <!-- /.vbox --> 
+</section>
+<script src="js/jquery.min.js"></script> 
+<!-- Bootstrap --> 
+<script src="js/bootstrap.js"></script> 
+<!-- App --> 
+<script src="js/app.js"></script>
+</body>
+</html>

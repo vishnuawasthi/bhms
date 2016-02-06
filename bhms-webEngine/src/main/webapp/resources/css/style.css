@@ -1,0 +1,385 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Open Sans Light'), local('OpenSans-Light'), url('../fonts/opensans/opensans-light.woff') format('woff');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Open Sans'), local('OpenSans'), url('../fonts/opensans/opensans.woff') format('woff');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Open Sans Bold'), local('OpenSans-Bold'), url('../fonts/opensans/opensans-bold.woff') format('woff');
+}
+.btn {
+	border-radius: 2px;
+	margin: 0 2px;
+}
+.home {
+	height: 120px;
+	background: #fff;
+	border: solid 1px #eee;
+}
+.home h1 {
+	font-size: 16px;
+	line-height: 80px;
+	text-align: center;
+}
+.home1 {
+	height: 160px;
+	background: #fff;
+	border: solid 1px #eee;
+}
+.home1 h1 {
+	font-size: 16px;
+	line-height: 120px;
+	text-align: center;
+}
+.home a:hover, .home1 a:hover {
+	color: #594f8d
+}
+.patient .panel-body {
+	margin: 0;
+	padding: 15px 0;
+}
+.patient .panel-heading {
+	margin-bottom: 25px;
+}
+.patient span {
+	color: #f60;
+	margin-left: 3px;
+}
+.patient label {
+	font-size: 11.50px;
+	font-weight: 600;
+	line-height: 20px;
+}
+.patient select {
+	font-size: 12px;
+}
+/*.bals .col-sm-4, .bals .col-sm-3, .p0 {
+	padding-left: 0;
+	padding-right: 0px;
+}*/
+.sdds label {
+	font-size: 11px;
+	font-weight: normal;
+}
+.right-div {
+	background: #fff;
+	border: solid 1px #eee;
+	padding: 15px;
+	height: 530px;
+}
+.user-ico {
+	margin: 15px 0 0 0px;
+	text-align: center;
+	margin-bottom: 10px;
+	padding-left: 0;
+}
+.user-ico .btn {
+	margin-top: 5px;
+}
+.user-ico img {
+	border: solid 1px #d8dde5;
+	padding: 2px;
+	width: 64px !important;
+	height: 64px !important;
+}
+.user-ico span {
+	color: #fff !important;
+}
+.colors {
+	width: 20px;
+	height: 20px;
+	background: #063;
+	cursor: pointer;
+	border: solid 1px #333;
+	float: right;
+}
+.plus-add i {
+	cursor: pointer;
+	font-size: 22px;
+	margin-top: 6px;
+}
+.pael-foot {
+	margin: 20px 0 30px 0;
+}
+.panel-1 td {
+	border-top: 1px solid #fff !important;
+	padding: 0px 0px !important;
+}
+.tables span {
+	padding: 0 5px;
+}
+.pri-sec, .mid-port {
+	padding: 8px 0;
+	border-collapse: collapse;
+}
+.p0 {
+	padding: 0;
+}
+.mt5 {
+	margin-top: 5px;
+}
+.mt25 {
+	margin-top: 25px;
+}
+.mt15 {
+	margin-top: 15px;
+}
+.patient .text-danger {
+	font-size: 11px;
+}
+#datepicker {
+	margin: 0 0px 0px 0px;
+}
+#datepicker > .input-group-addon:hover {
+	cursor: pointer;
+}
+.fileUpload {
+	position: relative;
+	overflow: hidden;
+	margin: 10px;
+}
+.fileUpload input.upload {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.p15 {
+	padding: 15px;
+}
+.mb20 {
+	margin-bottom: 20px;
+}
+.ml25 {
+	margin-left: 25px;
+}
+.ides {
+	height: 120px;
+	background: #fff;
+	border: solid 1px #eee;
+	position: relative;
+	padding: 15px;
+}
+.ides p {
+	padding: 0px 0;
+	line-height: 14px;
+}
+.lie-top {
+	position: absolute;
+	background: #fff;
+	padding: 5px 10px;
+	top: -15px;
+	left: 5%;
+	border: solid 1px #eee;
+}
+.ides .panel-body {
+	padding-top: 30px;
+}
+.ides input {
+	margin-right: 8px;
+}
+.appointment {
+	background: #fff;
+	padding: 20px;
+}
+.appointment h1 {
+	font-size: 22px;
+	margin: 0;
+	padding: 8px 0
+}
+.appointment h2 {
+	font-size: 14px;
+	color: #999;
+	margin: 0;
+	line-height: 18px;
+}
+.appointment h3 {
+	font-size: 17px;
+	color: #594f8d;
+	margin: 8px 0 15px 0;
+	line-height: 18px;
+}
+.td-bord {
+	border: solid 1px #ccc;
+	padding: 6px;
+}
+.td-bord p {
+	padding: 0px 0;
+	margin: 0;
+	font-size: 11px;
+}
+.td-bord img {
+	width: 24px;
+	height: 24px;
+	float: right;
+}
+.td-bord a {
+	color: #594f8d;
+}
+.td-bord i {
+	float: right;
+}
+.appointment td {
+	vertical-align: middle;
+}
+.dr-tbas {
+	border: solid 1px #ccc;
+	padding: 8px;
+}
+.dr-tbas p {
+	padding: 0px 0;
+	margin: 0;
+	font-size: 12px;
+}
+.dr-tbas img {
+	width: 24px;
+	height: 24px;
+	float: right;
+}
+.dr-tbas a {
+	color: #594f8d;
+}
+.dr-tbas i {
+	float: right;
+}
+.lft-brd {
+	border-left: solid 1px #eee;
+}
+.purple, .green, .orange, .gray, .red, .blue {
+	height: 4px;
+	margin: 5px 0 3px 0;
+}
+.purple-bg:hover, .purple {
+	background: #800080
+}
+.green-bg:hover, .green {
+	background: #5cb85c
+}
+.orange-bg:hover, .orange {
+	background: #f0ad4e
+}
+.gray-bg:hover, .gray {
+	background: #777
+}
+.red-bg:hover, .red {
+	background: #d9534f
+}
+.blue-bg:hover, .blue {
+	background: #337ab7
+}
+.purple-bg:hover p, .purple-bg:hover a, .green-bg:hover p, .green-bg:hover a, .orange-bg:hover p, .orange-bg:hover a, .gray-bg:hover p, .gray-bg:hover a, .red-bg:hover p, .red-bg:hover a, .blue-bg:hover p, .blue-bg:hover a {
+	color: #fff;
+}
+.purple-bg:hover .purple, .green-bg:hover .green, .orange-bg:hover .orange, .gray-bg:hover .gray, .red-bg:hover .red, .blue-bg:hover .blue {
+	background: #fff;
+}
+.uts {
+	display: block;
+	width: 100%;
+	margin: 15px 0
+}
+.uts ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.uts ul li {
+	border: solid 1px #ccc;
+	width: 80px;
+	height: 72px;
+	text-align: center;
+	padding: 8px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 10px;
+}
+.uts label, .uts span {
+	display: block;
+}
+.uts label {
+	font-size: 11px;
+}
+.uts span {
+	font-size: 24px;
+}
+.primary-bg:hover a, .primary-bg:hover .text-primary {
+	color: #fff
+}
+.primary-bg:hover, .primary-bg:focus, .primary-bg.active {
+	background-color: #594f8d;
+	border-color: #594f8d;
+}
+.warning-bg:hover a, .warning-bg:hover .text-warning {
+	color: #fff
+}
+.warning-bg:hover, .warning-bg:focus, .warning-bg.active {
+	background: #f0ad4e;
+	border: solid 1px #f0ad4e
+}
+.danger-bg:hover a, .danger-bg:hover .text-danger {
+	color: #fff
+}
+.danger-bg:hover, .danger-bg:focus, .danger-bg.active {
+	background-color: #fb6b5b;
+	border-color: #fb6b5b;
+}
+.success-bg:hover a, .success-bg:hover .text-success {
+	color: #fff
+}
+.success-bg:hover, .success-bg:focus, .success-bg.active {
+	background-color: #92cf5c;
+	border-color: #92cf5c;
+}
+.success-bg.active .text-primary {
+color:#fff !importants;
+}
+.panel .table td, .panel .table th {
+	padding: 8px 8px!important;
+	vertical-align: middle;
+}
+.scroll-rht {
+	height: 600px;
+	overflow: auto;
+	width: 100%;
+}
+.scroll-dr {
+	height: 600px;
+	overflow: auto;
+	width: 100%;
+}
+.scroll-rht select {
+	padding: 3px;
+	font-size: 11px;
+}
+.pr0 {
+	padding-right: 0;
+}
+.pl0 {
+	padding-left: 0;
+}
+.lsd label {
+	font-size: 12px;
+	font-weight: 300;
+}
+.btn {
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 2px 3px rgba(0, 0, 0, 0.05);
+}
+
